@@ -4,7 +4,7 @@ Welcome to the unofficial changelog repository for [Roblox Jailbreak](https://ww
 
 ## Accessing the Website
 
-You can access the changelog website [here](https://jailbreakchangelogs.xyz/).
+You can access the changelog website [here](https://jalenzzz.github.io/JailbreakChangelogs-test/).
 
 ## Introduction
 
