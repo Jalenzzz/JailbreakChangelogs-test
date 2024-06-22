@@ -7,9 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
   let totalPages;
   let changelogItems = [];
 
-  fetch("", {
-    mode: "cors",
-  })
+  fetch(
+    "https://raw.githubusercontent.com/Jalenzzz/JailbreakChangelogs-test/master/changelogs/23-6-24.txt",
+    {
+      mode: "cors",
+    }
+  )
     .then((response) => response.text())
     .then((data) => {
       const lines = data.split("\n");
