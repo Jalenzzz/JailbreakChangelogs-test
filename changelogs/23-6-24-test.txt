@@ -2535,3 +2535,12 @@
 - Fixed a bug that made Shotgun hits extremely loud.
 - Crew Battle ratings no longer update if the battle was brief.
 - Removed Bank Truck bounty due to abuse.
+
+# June 23, 2024 / SEASON 22
+
+- 🗽 Season 22: New prizes themed to the USA.
+- 🎊 New Tier 4 Safe prizes.
+- 🔥 2 New vehicles: Maverick Sport Truck & Venom V10.
+- 💡 Summer 2024 lighting.
+
+23-6-24-test.txt
