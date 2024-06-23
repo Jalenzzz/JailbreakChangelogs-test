@@ -157,7 +157,7 @@ h3 p {
   background-color: #007bff;
   color: white;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 640px) {
   .sidebar-image {
     position: relative; /* change position to relative for mobile */
     top: auto; /* reset top property */
