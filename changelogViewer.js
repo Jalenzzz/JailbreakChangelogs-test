@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
     "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
     "https://i.ibb.co/PrR1gHW/image.png",
-    "",
+    "https://i.ibb.co/gTRKJf4/image.png",
   ];
   window.goToPage = (pageNumber) => {
     currentPage = pageNumber;
