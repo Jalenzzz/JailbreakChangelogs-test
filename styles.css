@@ -157,7 +157,7 @@ h3 p {
   background-color: #007bff;
   color: white;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .sidebar-image {
     position: relative; /* change position to relative for mobile */
     top: auto; /* reset top property */
@@ -217,22 +217,22 @@ h3 p {
   }
 
   .button-container {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
   }
 
   button {
-    padding: 10px 20px;
+    padding: 8px 16px;
     border: 2px solid transparent;
     border-radius: 8px;
-    font-size: 1em;
+    font-size: 0.9em;
     cursor: pointer;
-    margin: 10px;
+    margin: 5px;
     background-color: transparent;
-    transition: all 0.3s ease;
-    margin: 0;
   }
   .blue-button:hover {
     color: #000000;
