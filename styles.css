@@ -7,6 +7,7 @@
   height: 100;
   display: flex;
   margin: 0 auto;
+  order: 1;
 }
 
 @keyframes fadeIn {
@@ -38,6 +39,8 @@
   margin: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex; /* add display flex to the sidebar image container */
+  flex-direction: column; /* set flex direction to column */
 }
 body {
   margin: 0;
@@ -65,25 +68,6 @@ body {
 #content {
   flex: 1;
   overflow-y: auto;
-}
-.light-mode {
-  background-color: #f2f2f2;
-  color: #333;
-}
-.dark-mode {
-  background-color: #333;
-  color: #ddd;
-}
-#mode-toggle-btn i {
-  margin-right: 0.5rem;
-}
-
-#mode-toggle-btn.dark-mode i:first-child {
-  display: none;
-}
-
-#mode-toggle-btn.light-mode i:last-child {
-  display: none;
 }
 header,
 section,
@@ -148,15 +132,48 @@ button {
   font-weight: bold;
   width: 200px;
 }
+/* .centered-line {
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+} */
+h3 p {
+  margin: 0;
+}
+#pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
 
-@media (max-width: 600px) {
+#pagination button {
+  padding: 8px 12px;
+  margin: 0 5px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+}
+#pagination button.active {
+  background-color: #007bff;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .sidebar-image {
+    position: relative; /* change position to relative for mobile */
+    top: auto; /* reset top property */
+    right: auto; /* reset right property */
+    transform: none; /* reset transform property */
+    width: 100%; /* make the image full-width on mobile */
+    margin: 10px auto; /* adjust margin for mobile */
+  }
+
   body {
     flex-direction: column;
   }
 
   .container {
     padding: 10px;
-    min-height: 130vh;
+    min-height: 200vh;
     overflow-y: auto;
   }
   header,
@@ -215,6 +232,7 @@ button {
     margin: 10px;
     background-color: transparent;
     transition: all 0.3s ease;
+    margin: 0;
   }
   .blue-button:hover {
     color: #000000;
@@ -226,31 +244,4 @@ button {
     color: #000000;
     background-color: #e76135;
   }
-}
-
-.centered-line {
-  text-align: center;
-  margin: 0 auto;
-  width: fit-content;
-}
-h3 p {
-  margin: 0;
-}
-#pagination {
-  display: flex;
-  justify-content: center;
-  margin-top: auto;
-}
-
-#pagination button {
-  padding: 8px 12px;
-  margin: 0 5px;
-  background-color: #f0f0f0;
-  border: none;
-  cursor: pointer;
-}
-
-#pagination button.active {
-  background-color: #007bff;
-  color: white;
 }
