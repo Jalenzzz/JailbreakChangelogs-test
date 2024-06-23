@@ -107,9 +107,20 @@ document.addEventListener("DOMContentLoaded", () => {
     paginationElement.innerHTML = paginationHtml;
   }
 
+  function updateSidebarImage(pageNumber) {
+    const sidebarImage = document.querySelector(".sidebar-image");
+    sidebarImage.src = pageImages[pageNumber - 1]; // Subtract 1 to match array index
+  }
+  const pageImages = [
+    "https://i.ibb.co/khp1j9X/image.png", // Image for Page 1
+    "https://i.ibb.co/0rp83KV/image.png", // Image for Page 2
+    "https://i.ibb.co/G93HtCY/image.png", // Image for Page 3
+  ];
   window.goToPage = (pageNumber) => {
     currentPage = pageNumber;
     renderChangelogs();
     renderPagination();
+    updateSidebarImage(pageNumber);
   };
+  updateSidebarImage(1); // Set the image for the initial page
 });
