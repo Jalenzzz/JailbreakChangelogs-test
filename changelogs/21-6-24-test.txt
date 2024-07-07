@@ -462,7 +462,7 @@
 - Shotguns now deal damage based on number of bullets hitting target
 - 30% Longer minigun fire time
  
-# September 5th 2018
+# September 5th 2018 / BALANCE UPDATE
 
 - Menu should load instantly now for slower connections.
 - Bullets don't bounce off water.
@@ -470,7 +470,7 @@
 - Shotgun balancing.
 - Equipping a new item no longer reloads Rockets.
 
-#  September 30th 2018 / FALL UPDATE!
+#  September 30th 2018 / FALL UPDATE
 
 - The map is now fall-themed. Limited time!
 - Fixed some arm bugs for the ATV and Posh.
