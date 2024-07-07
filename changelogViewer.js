@@ -184,6 +184,34 @@ document.addEventListener("DOMContentLoaded", () => {
     "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
     "https://i.ibb.co/PrR1gHW/image.png",
     "https://i.ibb.co/gTRKJf4/image.png",
+    "https://i.ibb.co/ByZ9bgR/image.png",
+    "https://i.ibb.co/56pxyJc/image.png",
+    "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
+    "https://i.ibb.co/fMgNZkV/image.png",
+    "https://i.ibb.co/cDCzrCY/image.png",
+    "https://i.ibb.co/3YCMFG7/image.png",
+    "https://i.ibb.co/V9xjKQp/image.png",
+    "https://i.ibb.co/B6Xvnyw/image.png",
+    "https://i.ibb.co/0sKQGmh/image.png",
+    "https://i.ibb.co/qr8CVJY/image.png",
+    "https://i.ibb.co/BZX0Kbj/image.png",
+    "https://i.ibb.co/JjtFsLH/image.png",
+    "https://i.ibb.co/0KTmJGD/image.png",
+    "https://i.ibb.co/SRf5C50/image.png",
+    "https://i.ibb.co/mSj53sB/image.png",
+    "https://i.ibb.co/984nbPt/image.png",
+    "https://i.ibb.co/fqncx1q/image.png",
+    "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
+    "https://i.ibb.co/RPpg7h4/image.png",
+    "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
+    "https://i.ibb.co/mqCzDFV/image.png",
+    "https://i.ibb.co/vjTjgzq/image.png",
+    "https://i.ibb.co/mBzdh4j/image.png",
+    "https://i.ibb.co/1QhKyGF/image.png",
+    "https://i.ibb.co/3pGSH6h/image.png",
+    "https://i.ibb.co/jJYwGfS/image.png",
+    "https://i.ibb.co/Htx2qJN/image.png",
+    "https://i.ibb.co/ZzNdp9s/image.png",
   ];
   window.goToPage = (pageNumber) => {
     currentPage = pageNumber;
