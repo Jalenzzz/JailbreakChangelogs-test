@@ -51,9 +51,16 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+}
+/* background colour for selected elements */
+::selection {
+  background-color: #ff6600;
+  color: #ffffff;
+}
+/* background colour for selected elements on mozilla based browsers */
+::-moz-selection {
+  background-color: #ff6600;
+  color: #ffffff;
 }
 .container {
   max-width: 800px;
