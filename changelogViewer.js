@@ -212,6 +212,73 @@ document.addEventListener("DOMContentLoaded", () => {
     "https://i.ibb.co/jJYwGfS/image.png",
     "https://i.ibb.co/Htx2qJN/image.png",
     "https://i.ibb.co/ZzNdp9s/image.png",
+    "https://i.ibb.co/T4JYhpy/image.png",
+    "https://i.ibb.co/VgcHrN4/image.png",
+    "https://i.ibb.co/X2N0nJD/image.png",
+    "https://i.ibb.co/LgLtXJJ/image.png",
+    "https://i.ibb.co/D8drKcW/image.png",
+    "https://i.ibb.co/2yBSRxN/image.png",
+    "https://i.ibb.co/pr7PjCM/image.png",
+    "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
+    "https://i.ibb.co/jvqtKRJ/image.png",
+    "https://i.ibb.co/xFgvzv7/image.png",
+    "https://i.ibb.co/JdFvQgS/image.png",
+    "https://i.ibb.co/PCtQRDm/image.png",
+    "https://i.ibb.co/R7Cs7Q4/image.png",
+    "https://i.ibb.co/YyrzBVY/image.png",
+    "https://i.ibb.co/ZcrhVj6/image.png",
+    "https://i.ibb.co/Lg1RdpR/image.png",
+    "https://i.ibb.co/LgV3Q9j/image.png",
+    "https://i.ibb.co/Qnj0Tpd/image.png",
+    "https://i.ibb.co/hMNT3Bd/image.png",
+    "https://i.ibb.co/ryVnQwy/image.png",
+    "https://i.ibb.co/ypxQw0d/image.png",
+    "https://i.ibb.co/SV9X03B/image.png",
+    "https://i.ibb.co/mNt3BVq/image.png",
+    "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
+    "https://i.ibb.co/CMk931D/image.png",
+    "https://i.ibb.co/7rfQjmX/image.png",
+    "https://i.ibb.co/fkBfkdC/image.png",
+    "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
+    "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
+    "https://i.ibb.co/8YrbmzY/image.png",
+    "https://i.ibb.co/1RLZPhw/image.png",
+    "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
+    "https://i.ibb.co/7jxM9vW/image.png",
+    "https://i.ibb.co/bX9TTPH/image.png",
+    "https://i.ibb.co/rZPcWdZ/image.png",
+    "https://i.ibb.co/q9DZTCV/image.png",
+    "https://i.ibb.co/3cMCtFy/image.png",
+    "https://i.ibb.co/v4FwRBZ/image.png",
+    "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
+    "https://i.ibb.co/r40kmFV/image.png",
+    "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
+    "https://i.ibb.co/sgdC29W/image.png",
+    "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
+    "https://i.ibb.co/qRCgBws/image.png",
+    "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
+    "https://i.ibb.co/QCVYB8H/image.png",
+    "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
+    "https://i.ibb.co/2dc9YBD/image.png",
+    "https://i.ibb.co/x3DhhKf/image.png",
+    "https://i.ibb.co/2cdJvW7/image.png",
+    "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
+    "https://i.ibb.co/G2jmV09/image.png",
+    "https://i.ibb.co/XVCDp8d/image.png",
+    "https://i.ibb.co/Ltfp2pR/image.png",
+    "https://i.ibb.co/NLtSVT8/image.png",
+    "https://i.ibb.co/dWBHRPD/image.png",
+    "https://i.ibb.co/JvynPPj/image.png",
+    "https://i.ibb.co/t495Yb2/image.png",
+    "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail
+    "https://i.ibb.co/Fg6pCgw/image.png",
+    "https://i.ibb.co/6swyLb6/image.png",
+    "https://i.ibb.co/CBQRKqP/image.png",
+    "https://i.ibb.co/Z6t0qJw/image.png",
+    "https://i.ibb.co/yBJRW8P/image.png",
+    "https://i.ibb.co/kSM33G4/image.png",
+    "https://i.ibb.co/fC4t6rz/image.png",
+    "https://i.ibb.co/3dgp780/image.png", // default image for no thumbnail - last page
   ];
   window.goToPage = (pageNumber) => {
     currentPage = pageNumber;
