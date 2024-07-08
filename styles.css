@@ -194,10 +194,12 @@ h3 p {
 }
 
 @media only screen and (max-width: 926px) and (orientation: landscape) {
+  /* Responsive container height for landscape tablets */
   .container {
     min-height: 350vh;
     overflow-y: auto;
   }
+  /* Responsive sidebar image size for landscape tablets */
   .sidebar-image {
     width: 60%;
     margin: 10px auto;
@@ -205,6 +207,7 @@ h3 p {
 }
 
 @media only screen and (orientation: portrait) {
+  /* Responsive container height for portrait mode */
   .container {
     min-height: 200vh;
     overflow-y: auto;
@@ -212,11 +215,13 @@ h3 p {
 }
 
 @media only screen and (min-device-width: 1080px) and (max-device-width: 1280px) and (orientation: landscape) {
+  /* Responsive sidebar image size for larger landscape tablets */
   .sidebar-image {
-    width: 600px; /* adjust the width to your liking */
+    width: 600px;
     height: auto;
     margin: 20px auto;
   }
+  /* Responsive container height for larger landscape tablets */
   .container {
     min-height: 175vh;
     overflow-y: auto;
