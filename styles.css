@@ -4,30 +4,18 @@
   border-radius: 50%;
   overflow: hidden;
   width: 100px;
-  height: 100;
+  height: 100px; /* Added missing 'px' */
   display: flex;
   margin: 0 auto;
   order: 1;
 }
+
 @keyframes fadeIn {
   to {
     opacity: 1;
   }
 }
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.dev-message {
-  font-size: x-large;
-}
+
 .sidebar-image {
   position: fixed;
   top: 50%;
@@ -38,9 +26,10 @@
   margin: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  display: flex; /* add display flex to the sidebar image container */
-  flex-direction: column; /* set flex direction to column */
+  display: flex;
+  flex-direction: column;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -52,16 +41,13 @@ body {
   align-items: center;
   min-height: 100vh;
 }
-/* background colour for selected elements */
-::selection {
-  background-color: #ff6600;
-  color: #ffffff;
-}
-/* background colour for selected elements on mozilla based browsers */
+
+::selection,
 ::-moz-selection {
   background-color: #ff6600;
   color: #ffffff;
 }
+
 .container {
   max-width: 800px;
   padding: 20px;
@@ -70,41 +56,50 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 #content {
   flex: 1;
   overflow-y: auto;
   box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.541);
 }
+
 header,
 section,
 footer {
   margin-bottom: 20px;
 }
+
 header h1 {
   font-size: 2em;
   text-align: center;
   margin-bottom: 10px;
 }
+
 section h2 {
   font-size: 1.5em;
   margin-bottom: 10px;
 }
+
 ul {
   padding-left: 20px;
 }
+
 li {
   list-style-type: disc;
   margin-bottom: 10px;
 }
+
 footer p {
   text-align: center;
   font-size: 1em;
 }
+
 .button-container {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
+
 button {
   padding: 10px 20px;
   border: 2px solid transparent;
@@ -115,28 +110,34 @@ button {
   background-color: transparent;
   transition: all 0.3s ease;
 }
-.blue-button {
-  color: #ffffff;
-  background-color: #005994;
-  border-color: #005994;
-  font-weight: bold;
-  width: 200px;
-}
+
+.blue-button,
 .orange-button {
   color: #ffffff;
-  background-color: #ff5f29;
-  border-color: #ff5f29;
   font-weight: bold;
   width: 200px;
 }
+
+.blue-button {
+  background-color: #005994;
+  border-color: #005994;
+}
+
+.orange-button {
+  background-color: #ff5f29;
+  border-color: #ff5f29;
+}
+
 h3 p {
   margin: 0;
 }
+
 #pagination {
   display: flex;
   justify-content: center;
   margin-top: auto;
 }
+
 #pagination button {
   padding: 8px 12px;
   margin: 0 5px;
@@ -144,12 +145,13 @@ h3 p {
   border: none;
   cursor: pointer;
 }
+
 #pagination button.active {
   background-color: #007bff;
   color: white;
 }
 
-/* for mobile devices */
+/* Media Queries */
 
 @media only screen and (max-width: 1024px) {
   .sidebar-image {
@@ -167,16 +169,6 @@ h3 p {
     padding: 10px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2), 0 -10px 10px rgba(0, 0, 0, 0.2);
   }
-  header,
-  section,
-  footer {
-    margin-bottom: 10px;
-  }
-  header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
   header h1 {
     font-size: 1.5em;
     text-align: center;
@@ -189,13 +181,6 @@ h3 p {
     margin-bottom: 10px;
     margin-right: 10px;
   }
-  #content {
-    flex: 1;
-  }
-  #pagination {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
   #pagination button {
     padding: 6px 10px;
     font-size: 0.8em;
@@ -206,68 +191,28 @@ h3 p {
     justify-content: center;
     margin-top: 10px;
   }
-  button {
-    padding: 8px 16px;
-    border: 2px solid transparent;
-    border-radius: 8px;
-    font-size: 0.9em;
-    cursor: pointer;
-    margin: 5px;
-    background-color: transparent;
-  }
-  .blue-button:hover {
-    color: #000000;
-    background-color: #00407d;
-    font-weight: bold;
-  }
-  .orange-button:hover {
-    color: #000000;
-    background-color: #e76135;
-  }
 }
-
-/* for phones in landscape */
 
 @media only screen and (max-width: 926px) and (orientation: landscape) {
   .container {
     min-height: 350vh;
     overflow-y: auto;
   }
-  #content {
-    overflow-y: auto;
-  }
   .sidebar-image {
-    position: relative;
-    top: auto;
-    right: auto;
-    transform: none;
     width: 60%;
     margin: 10px auto;
   }
 }
-
-/* for phones in portrait */
 
 @media only screen and (orientation: portrait) {
   .container {
     min-height: 200vh;
     overflow-y: auto;
   }
-  #content {
-    overflow-y: auto;
-  }
 }
-
-/* for tablets */
 
 @media only screen and (min-device-width: 1080px) and (max-device-width: 1280px) and (orientation: landscape) {
   .sidebar-image {
-    position: relative;
-    top: auto;
-    right: auto;
-    transform: none;
-    width: 60%;
-    margin: 10px auto;
     width: 600px; /* adjust the width to your liking */
     height: auto;
     margin: 20px auto;
