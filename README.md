@@ -18,7 +18,7 @@ You can access the changelog website [here](https://jalenzzz.github.io/Jailbreak
 
 ## Credits
 
-Special thanks to the following contributors:
+Special thanks to the following contributors!!!:
 
 Owner: [Jalenzz16](https://github.com/Jalenzzz)
 
