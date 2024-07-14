@@ -18,23 +18,6 @@
         <h1 id="main-title">ChangeLogs</h1>
       </header>
       <script src="changelogViewer.js"></script>
-      <script>
-        if ("serviceWorker" in navigator) {
-          window.addEventListener("load", function () {
-            navigator.serviceWorker.register("/serviceWorker.js").then(
-              function (registration) {
-                console.log(
-                  "ServiceWorker registration successful with scope: ",
-                  registration.scope
-                );
-              },
-              function (err) {
-                console.log("ServiceWorker registration failed: ", err);
-              }
-            );
-          });
-        }
-      </script>
       <section id="pagination"></section>
       <section id="content"></section>
       <footer>
