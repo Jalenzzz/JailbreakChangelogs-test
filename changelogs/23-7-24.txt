@@ -2877,3 +2877,14 @@ Two new vehicles were added:
 - - Robbery: Museum Decorative, Tomb entry, Tomb arrow room, Tomb CartA, Tomb CartB, Tomb treasure room, Tomb exits, Donut interior, Gas interior, Mansion entry, CEO rooms, Casino interior and Casino Vault, Oil Rig decoration, Powerplant interior, Train tracks, tunnels, and bridges.
 - - Other: Gun Shop 1 and Gun Shop 2, Trade ship, NPCs, Pirate Cave, Port objects, road tunnels and bridges, 1M interior, 2M interior, and the Volcano Base.
 - FYI: StreamingEnabled improves device memory, helpful for low RAM devices. It does not affect FPS. We hope to chase FPS next! Thank you!
+
+# June 23rd 2024 / TOY THEMED EVENT
+## Jazwares Toy themed event
+
+- NEW: Mini-Event (Check the prison to get started)
+- Limited Time skins
+- New SWAT Van
+- Brickset Tires
+
+23-7-24.txt
+23-7-24-test.txt
